@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A premier hair salon offering beautiful African hairstyles and more for all hair types.">
+    <title>African Hairstyles Salon</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>African Hair Styles</h1>
+            </div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h2>Transform Your Hair, Embrace Your Style</h2>
+        <p>We specialize in African hairstyles, braids, twists, and more. But we're here for every hair type, creating unique looks just for you.</p>
+        <a href="#services" class="cta-btn">Explore Our Services</a>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="service-cards">
+            <div class="service-card">
+                <img src="images/african-braids.jpg" alt="African Braids">
+                <h3>African Braids</h3>
+                <p>Beautiful and intricate braids, from box braids to cornrows, designed to suit all styles and personalities.</p>
+            </div>
+            <div class="service-card">
+                <img src="images/afro-styling.jpg" alt="Afro Styling">
+                <h3>Afro Styling</h3>
+                <p>Classic and modern afro styles that emphasize the beauty and versatility of natural curls.</p>
+            </div>
+            <div class="service-card">
+                <img src="images/wigs-haircuts.jpg" alt="Wigs and Haircuts">
+                <h3>Wigs & Haircuts</h3>
+                <p>Custom wigs, haircuts, and extensions to suit every occasion and personality.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item"><img src="images/gallery1.jpg" alt="Hairstyle 1"></div>
+            <div class="gallery-item"><img src="images/gallery2.jpg" alt="Hairstyle 2"></div>
+            <div class="gallery-item"><img src="images/gallery3.jpg" alt="Hairstyle 3"></div>
+            <div class="gallery-item"><img src="images/gallery4.jpg" alt="Hairstyle 4"></div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Ready for a new look? Book an appointment or ask a question.</p>
+        <form id="appointment-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <input type="text" id="phone" placeholder="Your Phone Number" required>
+            <textarea id="message" placeholder="Tell us about your desired hairstyle" required></textarea>
+            <button type="submit">Book Appointment</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 African Hairstyles Salon | Designed by YourName</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
